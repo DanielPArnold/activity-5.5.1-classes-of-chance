@@ -8,7 +8,7 @@ class Casino {
     playGame(betAmount){
         this.timesPlayed++;
         if (Math.random() <= 0.5){
-            console.log(`${name}Casino wins!`);
+            console.log(`${this.name} wins!`);
         }else{
             console.log(`You won ${(this.timesPlayed + 1) * betAmount} dollars from HackerU Casino!`);
             
